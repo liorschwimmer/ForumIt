@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumItWebApi", "ForumWebApi\ForumItWebApi.csproj", "{03058F90-CB54-49A7-B2CE-D7BC60E76725}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{B097425D-86DD-4656-BA2D-8FA5FAA8CADB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{344392B3-9C66-457F-9860-E6EEB75FB11B}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup-2.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup-2.ps1
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{4D753048-55E8-4B09-BD3D-1E49BB72FCE0}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\ForumItMVC.json = PublishScripts\Templates\ForumItMVC.json
+		PublishScripts\Templates\ForumItMVC.param.dev.json = PublishScripts\Templates\ForumItMVC.param.dev.json
+		PublishScripts\Templates\ForumWebApi.json = PublishScripts\Templates\ForumWebApi.json
+		PublishScripts\Templates\ForumWebApi.param.dev.json = PublishScripts\Templates\ForumWebApi.param.dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumItMVC", "ForumItMVC\ForumItMVC.csproj", "{64D51B14-2F94-495C-9E9A-ADB5EE8546D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03058F90-CB54-49A7-B2CE-D7BC60E76725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03058F90-CB54-49A7-B2CE-D7BC60E76725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03058F90-CB54-49A7-B2CE-D7BC60E76725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03058F90-CB54-49A7-B2CE-D7BC60E76725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D51B14-2F94-495C-9E9A-ADB5EE8546D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D51B14-2F94-495C-9E9A-ADB5EE8546D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D51B14-2F94-495C-9E9A-ADB5EE8546D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D51B14-2F94-495C-9E9A-ADB5EE8546D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{344392B3-9C66-457F-9860-E6EEB75FB11B} = {B097425D-86DD-4656-BA2D-8FA5FAA8CADB}
+		{4D753048-55E8-4B09-BD3D-1E49BB72FCE0} = {B097425D-86DD-4656-BA2D-8FA5FAA8CADB}
+	EndGlobalSection
+EndGlobal

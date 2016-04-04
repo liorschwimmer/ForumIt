@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "ForumWebApi7132"
+  },
+  "hostingPlanName": {
+    "value": "ForumIt"
+  },
+  "siteLocation": {
+    "value": "West Europe"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "476d2639-617f-46fc-908f-fda31ee684ff"
+  },
+  "resourceGroup": {
+    "value": "Default-Web-WestEurope"
+  }
+}

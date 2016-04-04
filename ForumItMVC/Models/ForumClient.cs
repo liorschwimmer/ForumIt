@@ -10,7 +10,7 @@ namespace ForumItMVC.Models
     {
         private string BaseUrl = "http://localhost/ForumItWebApi/api/forums/"; 
 
-        //public IEnumerable<Forum> GetAllForums()
+        //public IEnumerable<Forum> GetAllForums() 
         //{
         //    try
         //    {

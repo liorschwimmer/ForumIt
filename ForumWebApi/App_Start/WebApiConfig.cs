@@ -14,6 +14,8 @@ namespace ForumWebApi
     {
         public static void Register(HttpConfiguration config)
         {
+            config.EnableSystemDiagnosticsTracing();
+
             // Web API configuration and services
             // Configure Web API to use only bearer token authentication.
             config.SuppressDefaultHostAuthentication();
@@ -30,6 +32,8 @@ namespace ForumWebApi
 
             config.Formatters.Remove(config.Formatters.XmlFormatter);
             config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("application/json"));
+
+
 
         }
     }
